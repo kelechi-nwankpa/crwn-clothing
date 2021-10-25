@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-
-
 export const MenuItemContainer = styled.div`
 	height: ${({ size }) => (size ? '550px' : '350px')};
 	min-width: 30%;
@@ -14,7 +12,6 @@ export const MenuItemContainer = styled.div`
 	margin: 0 7.5px 15px;
 	overflow: hidden;
    
-    
 	&:first-child {
     margin-right: 7.5px;
   }
@@ -53,8 +50,6 @@ export const ContentContainer = styled.div`
   ${MenuItemContainer}:hover & {
     opacity: 0.9;
   }
-
-  
 `;
 
 
